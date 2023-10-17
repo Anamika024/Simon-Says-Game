@@ -1,4 +1,4 @@
-# Simon Says Game
+# Siman Says Game
 ![Game Screenshot](assest/screenshot.png)
 
 ## Description
