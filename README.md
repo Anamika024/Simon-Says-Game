@@ -28,6 +28,6 @@ This repository contains the code for a simple Simon Says game implemented using
 
 
 ## Demo
-URL:
+URL: [https://anamika024.github.io/Simon-Says-Game/?](https://anamika024.github.io/Simon-Says-Game/?)
 
 
