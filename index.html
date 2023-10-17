@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assest/simon says-logo.png">
+    <title>Siman Says Game</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <audio class="endSound" controls src="./sounds/sounds_soundEndGame.mp3"></audio>
+    <audio class="btnSound" controls src="./sounds/sounds_tabsound.mp3"></audio>
+    <audio class="sbtnSound" controls src="./sounds/sounds_StartGame.mp3"></audio>
+
+
+    <h1 class="Gname">Siman Says Game</h1> 
+    <h2 class="level">Press start to begin</h2>  
+    <form action="./assest/rule.html">
+        <button class="rule">GAME RULE</button>
+    </form>
+    <button class="start">Start</button>
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red"><p></p></div>
+            <div class="btn yellow" type="button" id="yellow"><p></p></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" type="button" id="green"><p></p></div>
+            <div class="btn purple" type="button" id="purple"><p></p></div>
+        </div>
+    </div>
+    <h1 class="highscore"></h1>
+    <hr class="custom-hr">
+    <p class="footer">Created by Anamika Patel, 2023</p>
+    <p class="footer">Source availble 
+        <a href="https://github.com/Anamika024" target="_blank">here.</a>
+    </p>
+    <script src="app.js"></script>
+</body>
+</html>
