@@ -1,5 +1,8 @@
-
 # Simon Says Game
+
+![Game Screenshot](assest/screenshot.png)
+
+## Description
 
 This repository contains the code for a simple Simon Says game implemented using HTML, CSS, and JavaScript. Simon Says is a memory game where the player must follow a series of randomly generated color. The game provides a fun and interactive way to test and improve memory and concentration skills.
 
